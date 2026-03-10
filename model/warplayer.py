@@ -39,6 +39,6 @@ def warp(tenInput, tenFlow):
         input=tenInput,
         grid=g,
         mode="bilinear",
-        padding_mode="zeros",
+        padding_mode="reflection",
         align_corners=True,
     )
